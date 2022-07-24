@@ -19,8 +19,12 @@
 <canvas class="canvas js-canvas"></canvas>
 <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <!-- 为了加快网页加载的速度下方两个静态文件引用的是我托管在Github的文件，源码文件用也附带了下方文件，如果您不想使用托管的文件可将“https://haycar.hayfuon.icu”去除 -->
+<!-- github路径 -->
 <script type="text/javascript" src="/car/static/layer/layer.js"></script>
 <script type="text/javascript" src="/car/static/js/main.js"></script>
+<!-- 本地路径 -->
+<!-- <script type="text/javascript" src="/static/layer/layer.js"></script>
+<script type="text/javascript" src="/static/js/main.js"></script> -->
 <!-- <script type="text/javascript" src="https://haycar.hayfuon.icu/static/layer/layer.js"></script>
 <script type="text/javascript" src="https://haycar.hayfuon.icu/static/js/main.js"></script> -->
 <script>
@@ -36,12 +40,12 @@
             {
                 name: "测试项目", /** 项目名称 **/
                 image: [
-                    "/static/images/t01769cd7630f3690cf.jpg", /** 项目图片 **/
-                    "/static/images/demo2.jpg"
+                    "/car/static/images/t01769cd7630f3690cf.jpg", /** 项目图片 **/
+                    "/car/static/images/demo2.jpg"
                     // "https://haycar.hayfuon.icu/static/images/t01769cd7630f3690cf.jpg", /** 项目图片 **/
                     // "https://haycar.hayfuon.icu/static/images/demo2.jpg"
                 ],
-                floor: "/static/images/test.png", /** 地板图，用于显示描述文字与按钮文字 **/
+                floor: "/car/static/images/test.png", /** 地板图，用于显示描述文字与按钮文字 **/
                 // floor: "https://haycar.hayfuon.icu/static/images/test.png", /** 地板图，用于显示描述文字与按钮文字 **/
                 button: {
                     event: "click",  /** 打开的点击事件，urljump:新窗口打开链接/other:执行function函数 **/
@@ -83,12 +87,12 @@
             /** 社交账户 **/
             {
                 href: "https://xxx/", /** 链接**/
-                label: "/static/images/b9ae4a05b3432b7eaf9b1a7533ff2dcc.png" /** 地板图 **/
+                label: "/car/static/images/b9ae4a05b3432b7eaf9b1a7533ff2dcc.png" /** 地板图 **/
                 // label: "https://haycar.hayfuon.icu/static/images/b9ae4a05b3432b7eaf9b1a7533ff2dcc.png" /** 地板图 **/
             },
             {
                 href: "https://xxx/",
-                label: "/static/images/7993174ebc2d660febbfda0dd75619b7.png"
+                label: "/car/static/images/7993174ebc2d660febbfda0dd75619b7.png"
                 // label: "https://haycar.hayfuon.icu/static/images/7993174ebc2d660febbfda0dd75619b7.png"
             }
         ]
